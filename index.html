@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>For Temitope 💖</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,600;1,800&family=Nunito:wght@500;700&display=swap">
+<style>
+:root{--bg:#fff0f3;--bg2:#ffd9e4;--ink:#4a1630;--soft:#8a3a5c;--card:#ffffffd9;--accent:#ff4d85;--accent2:#ff9ec0;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#2a0f1e;--bg2:#4a1832;--ink:#ffe6ee;--soft:#ffb3cd;--card:#3d1629d9;--accent:#ff6b9a;--accent2:#c2456f;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#2a0f1e;--bg2:#4a1832;--ink:#ffe6ee;--soft:#ffb3cd;--card:#3d1629d9;--accent:#ff6b9a;--accent2:#c2456f;color-scheme:dark}
+*{box-sizing:border-box}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100vh;background:radial-gradient(circle at 20% 0%,var(--bg2),var(--bg) 60%);color:var(--ink);font-family:'Nunito',system-ui,sans-serif;text-align:center;overflow-x:hidden}
+main{max-width:520px;margin:0 auto;padding:40px 20px 80px;position:relative;z-index:2}
+h1{font-family:'Fraunces',Georgia,serif;font-style:italic;font-weight:800;font-size:clamp(2.4rem,11vw,3.6rem);line-height:1.1;margin:10px 0 8px}
+.sub{color:var(--soft);font-size:1.1rem;margin:0 0 28px}
+.big{font-size:4rem;display:inline-block;animation:beat 1.4s infinite}
+@keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.18)}30%{transform:scale(1)}45%{transform:scale(1.12)}}
+button{font:inherit;font-weight:700;cursor:pointer;border:0;border-radius:999px;padding:14px 26px;background:var(--accent);color:#fff;font-size:1.05rem;box-shadow:0 6px 18px #ff4d8555;transition:transform .15s}
+button:active{transform:scale(.95)}
+button:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+#note{margin:28px auto 0;min-height:130px;padding:24px 20px;border-radius:28px;background:var(--card);backdrop-filter:blur(6px);font-family:'Fraunces',Georgia,serif;font-style:italic;font-weight:600;font-size:1.35rem;line-height:1.4;display:flex;align-items:center;justify-content:center}
+#note.pop{animation:pop .45s ease}
+@keyframes pop{from{transform:scale(.9) rotate(-1.5deg);opacity:0}to{transform:none;opacity:1}}
+.count{color:var(--soft);font-size:.95rem;margin-top:12px}
+.list{margin:44px 0 0;display:grid;gap:12px;text-align:left}
+.list p{margin:0;padding:14px 18px;border-radius:20px;background:var(--card);font-weight:700}
+.list p:nth-child(even){border-radius:20px 20px 20px 4px;margin-left:24px}
+.list p:nth-child(odd){border-radius:20px 20px 4px 20px;margin-right:24px}
+.end{margin-top:44px;font-family:'Fraunces',Georgia,serif;font-style:italic;font-size:1.6rem;font-weight:600}
+.f{position:fixed;bottom:-40px;pointer-events:none;z-index:1;animation:rise linear forwards}
+@keyframes rise{to{transform:translateY(-115vh) rotate(25deg);opacity:0}}
+@media (prefers-reduced-motion:reduce){.big,#note.pop{animation:none}.f{display:none}}
+</style>
+</head>
+<body>
+<main>
+  <div class="big">💖</div>
+  <h1>Hey, My Cutie Pie</h1>
+  <p class="sub">Temitope Teminikan, I made this page just for you. Tap the button. 🥰</p>
+  <button id="btn">Tap for a little love 💌</button>
+  <div id="note" aria-live="polite">Go on, tap it… I’ll wait 😘</div>
+  <div class="count" id="count"></div>
+
+  <div class="list">
+    <p>🌸 You are beautiful, inside and out.</p>
+    <p>😊 Your smile fixes my whole day.</p>
+    <p>✨ You’re so smart, so strong, so amazing.</p>
+    <p>🧸 You’re the cutest person I know, no debate.</p>
+    <p>🌹 You make ordinary days feel special.</p>
+    <p>👑 You deserve all the good things, always.</p>
+    <p>😂 The owner of my Taiwo and Kenny, no one else.</p>
+    <p>🥧 You will always be My Cutie Pie.</p>
+  </div>
+
+  <div class="end">Forever your biggest fan 💕<br>Now go smile, Temitope. That’s an order 😌</div>
+</main>
+<script>
+const msgs=[
+"You’re the prettiest thing I’ve ever seen, and I’m not even exaggerating 😍",
+"Your laugh is my favorite sound in the whole world 🎶",
+"You are loved. So, so much. 💗",
+"I’m proud of you, every single day 🥹",
+"You’re cute, you’re kind, you’re everything 🌷",
+"Thank you for being you. Never change 🦋",
+"You glow when you walk into a room ✨",
+"Even your bad days are more beautiful than most people’s best 🌙",
+"I choose you. Every time. 💍",
+"You’re my favorite person, my safe place, my home 🏡",
+"Warning: you are dangerously adorable 🚨🥰",
+"Your hugs are the best place on earth 🤗",
+"Temitope Teminikan, the owner of my Taiwo and Kenny 😂👑",
+"You’re my Cutie Pie, today and always 🥧💕",
+"Still the owner of my Taiwo and Kenny, and I’m not complaining 😂💖"
+];
+const emojis=["💖","💕","💗","🌸","✨","🦋","🌹","🥰","💫","🧸","💘","😍"];
+let i=-1,n=0;
+const note=document.getElementById('note'),count=document.getElementById('count');
+function floaty(k){
+  for(let j=0;j<k;j++){
+    const e=document.createElement('div');
+    e.className='f';
+    e.textContent=emojis[Math.floor(Math.random()*emojis.length)];
+    e.style.left=Math.random()*95+'vw';
+    e.style.fontSize=(1.4+Math.random()*1.8)+'rem';
+    e.style.animationDuration=(3+Math.random()*3)+'s';
+    document.body.appendChild(e);
+    setTimeout(()=>e.remove(),6500);
+  }
+}
+document.getElementById('btn').addEventListener('click',()=>{
+  i=(i+1)%msgs.length;n++;
+  note.textContent=msgs[i];
+  note.classList.remove('pop');void note.offsetWidth;note.classList.add('pop');
+  count.textContent=n+(n===1?' love note opened':' love notes opened')+' 💞';
+  floaty(14);
+});
+floaty(10);
+</script>
+</body>
+</html>
